@@ -4,3 +4,10 @@ plugins:
 title: chraebsli Tutorials
 description: 
 github: [metadata]
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: Nicholas Krebs

@@ -4,7 +4,7 @@
         "commands": [
             {
                 "match": ".",
-                "cmd": "bundle exec jekyll serve --incremental"
+                "cmd": "bundle exec jekyll serve"
             }
         ]
     }
