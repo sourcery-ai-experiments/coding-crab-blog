@@ -3,9 +3,9 @@ title: Default Page
 description: The Default of this Website
 date: 2023-02-14 12:49:00
 categories:
-  - some Category
+  - defaults
 tags:
-  - some Category
+  - default
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
