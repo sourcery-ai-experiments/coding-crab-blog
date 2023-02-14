@@ -3,8 +3,8 @@
 ## links
 
 - [Theme](https://github.com/pages-themes/cayman)
-- [Github Tutorial](https://docs.github.com/de/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll)
-- [Jekyll Tutorial](https://jekyllrb.com/docs/installation/windows/)
+- [Build Project](https://docs.github.com/de/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+- [Install Jeykll](https://jekyllrb.com/docs/installation/windows/)
 
 ## commands
 
