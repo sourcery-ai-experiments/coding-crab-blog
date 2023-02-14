@@ -1,0 +1,7 @@
+<header class="page-header" role="banner">
+    <div class="page-header-content">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <span class="project-author-date">{{ page.author }}, {{ page.date | date: "%-d %b %Y %H:%M" }}</span>
+    </div>
+</header>
