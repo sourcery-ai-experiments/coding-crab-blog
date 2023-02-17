@@ -9,17 +9,25 @@ tags:
   - cheatsheet
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~, <mark>highlighted</mark>.
+In this post, you will find a cheatsheet for all the Markdown components available in this template. 
 
-[Link to another page](./another-page.html).
+## Text
+
+Text can be **bold**
+
+Text can be _italic_
+
+Text can be ~~strikethrough~~
+
+Text can be <mark>highlighted</mark>
+
+Text can be <ins>underlined</ins>
+
+Text can be [linked](#)
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1 {#custom-header-id}
-
-## Header 2
+## Header 2 (with custom id) {#custom-header-id}
 
 ### Header 3
 
@@ -178,3 +186,15 @@ Here's a sentence with a footnote. [^1]
 {% endcapture %}
 
 <div class="notice--info">{{ extended-notice | markdownify }}</div>
+
+## Abbreviation
+
+This is an <abbr title="abbreviation">abbr</abbr> for abbreviation.
+
+## Subscript
+
+Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.
+
+## Superscript
+
+Still sticking with science and Albert Einstein’s E = MC<sup>2</sup>, which should lift the 2 up.
