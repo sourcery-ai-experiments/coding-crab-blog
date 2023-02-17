@@ -57,7 +57,7 @@ plugins:
 author:
   name: "Nicholas Kerbs"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: I'm a 3rd year IT student from Switzerland. I am learning IT, and I am much interested in Web development. In my free time, I like to code and learn new languages or improve them. I also make music in a brass band and in winter, I like to go snowboarding.
+  bio: 3rd year IT student from Switzerland \| Web development
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -67,7 +67,7 @@ author:
       url: "https://twitter.com/chraebsli_dev"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/chraebli"
+      url: "https://github.com/chraebsli"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/chraebsli.dev"
@@ -82,7 +82,7 @@ footer:
       url: "https://twitter.com/chraebsli_dev"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/chraebli"
+      url: "https://github.com/chraebsli"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/chraebsli.dev"
