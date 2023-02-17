@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: chraebsli Tutorials
-#subtitle:
-email: nicholas.joel.krebs@gmail.com
-description: #>-
-twitter_username: chraebsli_dev
-github_username: chraebsli
+title: &title chraebsli Tutorials
+subtitle: &subtitle "Tutorials for web development and other IT stuff"
+email: &email nicholas.joel.krebs@gmail.com
+description: &description "Tutorials for web development and other IT stuff"
+twitter_username: &twitter chraebsli_dev
+github_username: &github chraebsli
 minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-locale: "de-CH"
+locale: "en-US"
 title_separator: "-"
 repository: chraebsli/tutorials
 search: true
@@ -28,27 +28,38 @@ date_format: "%-d %b %Y %H:%M"
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.23.0
+url: https://chraebsli.github.io/tutorials
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Zurich # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Social
+social:
+  name: *name
+  links: # An array of links to social media profiles
+    - *githubURL
+    - *twitterURL
+    - *linkedinURL
+    - *instagramURL
+    - *facebookURL
+
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Links to social media profiles
+links:
+  - website: &websiteURL "https://nicholas-krebs.ch"
+  - github: &githubURL "https://github.com/chraebsli"
+  - twitter: &twitterURL "https://twitter.com/chraebsli_dev"
+  - linkedin: &linkedinURL "https://www.linkedin.com/in/nicholas-krebs"
+  - instagram: &instagramURL "https://instagram.com/chraebsli.dev"
+  - facebook: &facebookURL "https://www.facebook.com/nicholas.krebs"
+  - email: &emailURL "mailto:nicholas.joel.krebs@gmail.com"
+
 
 # Kramdown
 kramdown:
@@ -64,26 +75,29 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Nicholas Kerbs"
+  name: &name "Nicholas Kerbs"
   avatar: "/assets/images/bio-photo.jpg"
   bio: "3rd year IT student from Switzerland. Web development."
   location: "Switzerland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://nicholas-krebs.ch"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/chraebsli_dev"
+      url: *websiteURL
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/chraebsli"
+      url: *githubURL
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: *twitterURL
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: *instagramURL
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: *linkedinURL
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:nicholas.joel.krebs@gmail.com"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/chraebsli.dev"
+      url: *emailURL
 
 # Sass/SCSS
 sass:
@@ -94,16 +108,22 @@ footer:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://nicholas-krebs.ch"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/chraebsli_dev"
+      url: *websiteURL
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/chraebsli"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/chraebsli.dev"
+      url: *githubURL
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: *twitterURL
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: *instagramURL
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: *linkedinURL
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: *emailURL
 
 defaults:
   # _posts
