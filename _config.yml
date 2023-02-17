@@ -24,6 +24,7 @@ locale: "de-CH"
 title_separator: "-"
 repository: chraebsli/tutorials
 search: true
+date_format: "%-d %b %Y %H:%M"
 
 # Build settings
 markdown: kramdown
