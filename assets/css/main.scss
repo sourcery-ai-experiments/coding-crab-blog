@@ -17,3 +17,16 @@ $table-even-row-background-color: mix(#000, $background-color, 15%) !default;;
 tr:nth-child(even) {
     background-color: $table-even-row-background-color;
 }
+
+// ----------------------------- ToC ----------------------------- //
+// Change the background color of the toc header
+.toc .nav__title {
+    background-color: #00000000;
+}
+
+// move the toc to the right
+@media (min-width: 80em){
+    .sidebar__right {
+        margin-right: -400px;
+    }
+}

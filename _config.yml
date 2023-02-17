@@ -50,6 +50,10 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Kramdown
+kramdown:
+  toc_levels: 1..4
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -113,6 +117,9 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "Table of Contents"
   # _pages
   - scope:
       path: "_pages"
@@ -127,3 +134,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
