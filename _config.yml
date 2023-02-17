@@ -64,6 +64,9 @@ links:
 # Kramdown
 kramdown:
   toc_levels: 1..4
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Plugins (previously gems:)
 plugins:

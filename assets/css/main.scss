@@ -13,7 +13,8 @@ search: false
 
 // ----------------------------- tables ----------------------------- //
 // Change the background color of even rows in tables
-$table-even-row-background-color: mix(#000, $background-color, 15%) !default;;
+$table-even-row-background-color: mix(#000, $background-color, 15%) !default;
+
 tr:nth-child(even) {
     background-color: $table-even-row-background-color;
 }
@@ -25,8 +26,55 @@ tr:nth-child(even) {
 }
 
 // move the toc to the right
-@media (min-width: 80em){
+@media (min-width: 80em) {
     .sidebar__right {
         margin-right: -400px;
+    }
+}
+
+// ----------------------------- Code ----------------------------- //
+// Copy label
+// source: https://github.com/iBug/iBug-source/commit/eb0180ae9eaa2d3d90c25b9c49cfb0e82fcc5e84
+pre {
+    .copy-button {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        z-index: 1;
+        background: none;
+        border: none;
+        border-radius: 0.1em;
+        padding: 0.2em 0.5em;
+        color: white;
+        opacity: 0.1;
+        transition: color 0.25s linear, opacity 0.25s linear;
+        outline: none;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        &.copied {
+            color: #019701;
+            opacity: 1;
+        }
+    }
+
+    &:hover .copy-button {
+        opacity: 0.6;
+
+        &:hover {
+            opacity: 1;
+        }
     }
 }
