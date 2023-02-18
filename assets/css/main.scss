@@ -32,6 +32,14 @@ tr:nth-child(even) {
     }
 }
 
+// ----------------------------- Image Captions ----------------------------- //
+// Change the font style of image captions
+p:has(img) {
+    font-style: italic;
+    font-size: 0.8rem !important;
+    opacity: 0.7;
+}
+
 // ----------------------------- Code ----------------------------- //
 // Copy label
 // source: https://github.com/iBug/iBug-source/commit/eb0180ae9eaa2d3d90c25b9c49cfb0e82fcc5e84

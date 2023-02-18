@@ -122,7 +122,7 @@ The final element.
 ### Captioned Image
 
 ![Branching](https://docs.github.com/assets/cb-23923/images/help/repository/branching.png)
-This is an image caption
+This is an image caption  
 Image Source: [docs.github.com](https://docs.github.com)
 
 ## Definition lists
