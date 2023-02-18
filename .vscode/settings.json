@@ -1,13 +1,5 @@
 {
-    "liveServer.settings.root": "/_site/",
-    "emeraldwalk.runonsave": {
-        "commands": [
-            {
-                "match": ".",
-                "cmd": "bundle exec jekyll serve"
-            }
-        ]
-    },
+    "liveServer.settings.root": "_site/",
     "cSpell.words": [
         "jekyll"
     ]
