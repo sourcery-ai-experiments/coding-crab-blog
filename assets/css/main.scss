@@ -20,9 +20,33 @@ tr:nth-child(even) {
 }
 
 // ----------------------------- ToC ----------------------------- //
-// Change the background color of the toc header
-.toc .nav__title {
-    background-color: #00000000;
+.toc {
+    // Change the background color of the toc header (dark mode only)
+    .nav__title {
+        //background-color: #00000000;
+    }
+
+    // animate the toc on toggle
+    .header {
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+    .header:hover {
+        opacity: 0.7;
+    }
+    .toc-content {
+      overflow: hidden;
+      max-height: 0;
+      transition: all 0.3s ease-in-out;
+      box-sizing: border-box;
+    }
+    #toc-state {  
+      display: none;
+    }
+    #toc-state:checked ~ .toc-content {  
+      max-height: 70vh;
+      overflow-y: scroll;
+    }
 }
 
 // move the toc to the right
