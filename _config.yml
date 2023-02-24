@@ -60,6 +60,12 @@ links:
   - facebook: &facebookURL "https://www.facebook.com/nicholas.krebs"
   - email: &emailURL "mailto:nicholas.joel.krebs@gmail.com"
 
+# Analytics
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: G-L4JDRS1K02
+    anonymize_ip: false
 
 # Kramdown
 kramdown:
