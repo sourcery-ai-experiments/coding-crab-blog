@@ -29,7 +29,7 @@ date_format: "%-d %b %Y %H:%M"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes@4.23.0
-url: https://chraebsli.github.io/coding-crab-blog
+url: https://blog.chraebsli.dev
 
 # Outputting
 permalink: /:categories/:title/
