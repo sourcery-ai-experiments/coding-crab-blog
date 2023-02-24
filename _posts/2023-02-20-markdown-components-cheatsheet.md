@@ -18,7 +18,7 @@ Text can be **bold**, _italic_, [linked](#), ~~strikethrough~~, <mark>highlighte
 
 Text can have <abbr title="abbreviations">abbrs</abbr> and footnotes[^1].
 
-There should be whitespace between paragraphs.
+There should be a whitespace between paragraphs.
 
 [^1]: This is the footnote.
 
@@ -66,27 +66,27 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ### Bullet lists
 
 - This is a list item
-- This is an other list item
+- This is another list item
   - This is a nested list item on the 2nd level
     - This is a nested List item on the 3rd level
-  - This is an other nested list item on the 2nd level
-- This is also an other list item
+  - This is another nested list item on the 2nd level
+- This is also another list item
 
 ### Numbered lists
 
 1. This is a numbered list item
-2. This is an other numbered list item
-   1. This is a nested numbered list item on the 2nd level
-      1. This is a nested List item on the 3rd level
-   2. This is an other nested numbered list item on the 2nd level
-3. This is also an other numbered list item
+2. This is another numbered list item
+  1. This is a nested numbered list item on the 2nd level
+    1. This is a nested List item on the 3rd level
+  2. This is another nested, numbered list item on the 2nd level
+3. This is also another numbered list item
 
 ### Mix
 
 1. This is a numbered list item
   - This is a nested list item on the 2nd level
-  - this is an other nested list item on the 2nd level
-2. This is an other numbered list item
+  - this is another nested list item on the 2nd level
+2. This is another numbered list item
 
 ### Checklists
 
@@ -131,7 +131,7 @@ This is an image caption
 {% capture extended-notice %}
 **Extended Alert:**
 
-This is an extended info alert. Other than the default alert, it can be styled with all Markdown components
+This is an extended info alert. Other than the default alert, it can be styled with all Markdown components.
 
 - List Item 1
 - List Item 2
@@ -167,7 +167,7 @@ const foo = 'bar';
 
 <details>
 <summary>Click to expand</summary>
-This is a details block. It can be used to hide content that is not important for the user at first sight.
+This is a details block. It can be used to hide content that is not essential for the user at first sight.
 </details>
 
 ## Divider
