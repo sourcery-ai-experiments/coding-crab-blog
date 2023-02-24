@@ -1,7 +1,7 @@
 ---
 title: Bitwarden Password Manager - Usage & Features
 description: How to use the Bitwarden password manager and what can you do with it
-date: 2023-02-20 8:35:00 +0100
+date: 2023-02-20 10:57:00 +0100
 categories:
   - security
 tags:

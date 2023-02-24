@@ -1,7 +1,7 @@
 ---
 title: Setup Windows 10 without a Microsoft Account
 description: How to setup the Windows 10 OS without a Microsoft Account
-date: 2023-02-20 8:35:00 +0100
+date: 2023-02-21 8:35:00 +0100
 categories:
   - windows
 tags:
