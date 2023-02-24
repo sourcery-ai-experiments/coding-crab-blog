@@ -6,8 +6,6 @@ categories:
   - google
 tags:
   - google
-  - tutorial
-  - support
 ---
 
 In this post, you will learn how to create a Google Account with an existing email address.
