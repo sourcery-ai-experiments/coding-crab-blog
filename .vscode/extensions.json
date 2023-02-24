@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "jsynowiec.vscode-insertdatestring"
+        "jsynowiec.vscode-insertdatestring",
+        "sissel.shopify-liquid",
+        "ginfuru.ginfuru-vscode-jekyll-syntax"
     ]
 }
