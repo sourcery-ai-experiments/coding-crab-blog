@@ -22,7 +22,7 @@ github_username: &github chraebsli
 minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale: "en-US"
 title_separator: "-"
-repository: chraebsli/coding-crab-blog
+repository: &repository chraebsli/coding-crab-blog
 search: true
 date_format: "%-d %b %Y %H:%M"
 
@@ -82,6 +82,22 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+# Comments
+comments:
+  provider: giscus
+  giscus:
+    repo: *repository
+    repo_id: R_kgDOI9p5Ww
+    category_name: Blog Comments
+    category_id: DIC_kwDOI9p5W84CUcYE
+    discussion_term: pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
+    theme: transparent_dark # "light" (default), "dark", "dark_dimmed", "transparent_dark", "c"
+    emit_metadata: 1
+    input_position: top
+    lang: en
+    loading: lazy
 
 author:
   name: &name "Nicholas Krebs"
