@@ -4,9 +4,10 @@ description: How to set up the Windows 10 OS without a Microsoft Account
 date: 2023-02-21 8:35:00 +0100
 categories:
   - windows
+  - windows-10
 tags:
   - windows
-  - windows-10
+  - windows 10
 ---
 
 In this post, you will learn how to set up Windows without a Microsoft Account (using a local account).

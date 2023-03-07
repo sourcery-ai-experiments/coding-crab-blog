@@ -4,8 +4,9 @@ description: How to use the Bitwarden password manager and what can you do with 
 date: 2023-02-22 10:57:00 +0100
 categories:
   - security
-tags:
   - password-manager
+tags:
+  - password manager
   - bitwarden
   - tools & software
 ---

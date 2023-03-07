@@ -8,7 +8,6 @@ categories:
   - google-docs
 tags:
   - google docs
-  - google drive
   - google
 ---
 
