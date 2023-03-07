@@ -28,10 +28,6 @@
 - [ ] In `sitemap.xml`
 - [ ] In `feed.xml`
 
-### Discussions
-
-???
-
 ## Pages
 
 ### Text
@@ -53,7 +49,3 @@
 
 - [ ] In `sitemap.xml`
 - [ ] In `feed.xml`
-
-### Discussions
-
-???
