@@ -28,6 +28,12 @@
 - [ ] In `sitemap.xml`
 - [ ] In `feed.xml`
 
+### Multilingual
+
+- [ ] Has a `lang` in the frontmatter
+- [ ] Has a `lang-ref` in the frontmatter
+- [ ] If translated post, shows language switcher
+
 ## Pages
 
 ### Text

@@ -1,8 +1,10 @@
 ---
+lang: en
+lang-ref: google-docs-tricks
 title: Google Docs Tricks
 description: A collection of Google Docs tricks and tips to make your life easier
 date: 2023-03-07 09:02 +0100
-last_modified_at: 2023-03-07 10:29 +0100
+last_modified_at: 2023-03-08 20:19 +0100
 categories:
   - google
   - google-docs
@@ -112,7 +114,7 @@ To suggest edits, you have 2 options:
 1. Change to the _Suggesting_ mode by selecting it in the top right corner of the window
 2. Select the text and click the _Suggest_ icon on the right side of the document
 
-### Document Outline
+## Document Outline
 
 When you have a long document, it can be hard to navigate through it. With the outline feature, you can see all the headings and subheadings of the document and navigate to them by clicking on them.
 

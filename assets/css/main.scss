@@ -63,6 +63,17 @@ p:has(img) {
     font-size: 0.8rem !important;
 }
 
+// ----------------------------- Language Switcher ----------------------------- //
+// Change the font style of the language switcher
+.switch-language {
+    gap: 1rem;
+
+    img{
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
 // ----------------------------- Code ----------------------------- //
 // Copy label
 // source: https://github.com/iBug/iBug-source/commit/eb0180ae9eaa2d3d90c25b9c49cfb0e82fcc5e84

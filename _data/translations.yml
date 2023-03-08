@@ -1,0 +1,17 @@
+en:
+  nav:
+    about: About
+    tags: Tags
+    categories: Categories
+    posts: Posts
+  select_lang:
+    viewIn: "View in"
+
+de:
+  nav:
+    about: Über
+    tags: Tags
+    categories: Kategorien
+    posts: Beiträge
+  select_lang:
+    viewIn: "Schaue in"

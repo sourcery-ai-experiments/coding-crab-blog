@@ -1,4 +1,6 @@
 ---
+lang: en
+lang-ref: markdown-components-cheatsheet
 title: Markdown Components Cheatsheet
 description: A cheatsheet for all the Markdown components available in this template.
 date: 2023-02-20 18:13:00 +0100

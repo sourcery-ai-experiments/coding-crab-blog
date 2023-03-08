@@ -1,7 +1,10 @@
 ---
-title: Add Shared Google Drive Folder to My Drive
+lang: en
+lang-ref: add-shared-google-drive-folder-to-my-drive
+title: Add Shared Google Drive Folder/ File to My Drive
 description: How to add a shared Google Drive folder/ file to your Google Drive
 date: 2023-03-07 08:26 +0100
+last_modified_at: 2023-03-08 17:57 +0100
 categories:
   - google
   - google-drive
@@ -17,7 +20,7 @@ If someone shares a folder/ file with you, you find it in the "_Shared with me_"
 
 Also, if you are using Google Drive for desktop, you will not see them. So if you add the folders and files to your Drive, you can define their location, and you can also open it in Drive for desktop.
 
-## How to add a shared folder to your Drive
+## How to add a shared folder/ file to your Drive
 
 ### Mobile
 
