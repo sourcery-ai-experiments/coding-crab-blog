@@ -21,6 +21,7 @@ tr:nth-child(even) {
 
 // ----------------------------- ToC ----------------------------- //
 .toc {
+
     // Change the background color of the toc header (dark mode only)
     .nav__title {
         //background-color: #00000000;
@@ -31,21 +32,30 @@ tr:nth-child(even) {
         cursor: pointer;
         box-sizing: border-box;
     }
+
     .header:hover {
         opacity: 0.7;
     }
+
     .toc-content {
-      overflow: hidden;
-      max-height: 0;
-      transition: all 0.3s ease-in-out;
-      box-sizing: border-box;
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.3s ease-in-out;
+        box-sizing: border-box;
     }
-    #toc-state {  
-      display: none;
+
+    #toc-state {
+        display: none;
     }
-    #toc-state:checked ~ .toc-content {  
-      max-height: 70vh;
-      overflow-y: scroll;
+
+    #toc-state:checked~.toc-content {
+        max-height: 70vh;
+        overflow-y: scroll;
+    }
+
+    // Fix ToC hover color of active item
+    &__menu .active a:hover {
+        color: #3d4144;
     }
 }
 
@@ -68,7 +78,7 @@ p:has(img) {
 .switch-language {
     gap: 1rem;
 
-    img{
+    img {
         width: 1rem;
         height: 1rem;
     }
