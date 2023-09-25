@@ -2,7 +2,7 @@
 
 ## About
 
-I'm an IT student and with this website, I want to share my knowledge and my experiences with you, as a new coder. I write about things that I have learned. Also, there will be some tutorials and general tips and tricks for non-IT people, which I find useful for others to know.
+I'm a young IT enthusiast & web developer from Switzerland. With this blog, I want to share my knowledge and experiences. I write about things that I have learned or found helpful. Besides, there will be some tutorials and general tips and tricks for non-IT people, which I find profitable for others to know.
 
 ## Setup
 
