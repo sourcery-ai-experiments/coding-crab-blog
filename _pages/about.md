@@ -2,11 +2,11 @@
 permalink: /about/
 title: "About"
 date: 2023-02-20 10:04 +0100
-last_modified_at: 2023-02-24 10:04 +0100
+last_modified_at: 2023-09-25 09:58 +0100
 ---
 
-I'm a 3rd year IT student from Switzerland. I am learning IT, and I am much interested in Web development. In my free time, I like to code and learn new languages, or improve them. I also make music in a brass band and in winter, I go snowboarding.
+I'm a young IT enthusiast & web developer from Switzerland who is truly interested in web development and other IT stuff. In my spare time, I like to code and strengthen my skills. Furthermore, I'm in a brass band, a scout leader, and a snowboarder in winter.
 
-With this website, I want to share my knowledge and my experiences with you, as a new coder. I write about things that I have learned. Also, there will be some tutorials and general tips and tricks for non-IT people, which I find useful for others to know.
+With this blog, I want to share my knowledge and experiences. I write about things that I have learned or found helpful. Besides, there will be some tutorials and general tips and tricks for non-IT people, which I find profitable for others to know.
 
-If you have any questions or suggestions, feel free to contact me.
+You are welcome to contact me if you have any questions or suggestions.
