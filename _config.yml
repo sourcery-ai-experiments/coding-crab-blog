@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: &title Coding Crab Blog
 subtitle: &subtitle "Blogs about web development and other IT stuff"
-email: &email nicholas.joel.krebs@gmail.com
+email: &email nicholas@nicholas-krebs.ch
 description: &description "Blogs about web development and other IT stuff"
 twitter_username: &twitter chraebsli_dev
 github_username: &github chraebsli
