@@ -8,7 +8,7 @@ published: true
 categories:
   - smart-home
 tags:
-  - smart-home
+  - smart home
   - self-hosting
   - foss
 ---

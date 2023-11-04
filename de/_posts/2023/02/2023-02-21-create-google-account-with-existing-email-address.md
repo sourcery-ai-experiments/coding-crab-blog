@@ -7,7 +7,6 @@ date: 2023-02-21 13:16:00 +0100
 last_modified_at: 2023-03-08 17:24 +0100
 categories:
   - google
-  - account
 tags:
   - google
   - account

@@ -7,7 +7,6 @@ date: 2023-03-07 09:02 +0100
 last_modified_at: 2023-03-08 20:19 +0100
 categories:
   - google
-  - google-docs
 tags:
   - google docs
   - google
