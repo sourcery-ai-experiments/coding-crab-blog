@@ -7,21 +7,21 @@
     data-size="large" aria-label="View this page on GitHub!">View on GitHub!</a>
     <br/>
 
-    <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
-        class="btn btn--twitter"
-        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-        title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Twitter"><i
-            class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+    <a href="mailto:?body=Check out this article I found on {{ site.title }}: {{ page.url | absolute_url | url_encode }}&subject={{ page.title | url_encode }} | {{ site.title }}"
+    class="btn btn--email"
+    onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Email"><i
+            class="fa fa-fw fa-envelope" aria-hidden="true"></i><span> Email</span></a>
 
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
-        class="btn btn--facebook"
+    <a href="https://mastodonshare.com/?text=Check out this article I found on {{ site.title }}&url={{ page.url | absolute_url }}"        
+        class="btn btn--mastodon"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-        title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Facebook"><i
-            class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+        title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Mastodon"><i
+        class="fab fa-fw fa-mastodon" aria-hidden="true"></i><span> Mastodon</span></a>
 
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}"
-        class="btn btn--linkedin"
-        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-        title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i
-            class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+    <a href="#" onclick="navigator.clipboard.writeText('{{ page.url | absolute_url }}'); return false;"
+        class="btn btn--copy"
+        title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Mastodon"><i
+            class="fa fa-fw fa-link" aria-hidden="true"></i><span> Copy</span></a>
+
 </section>

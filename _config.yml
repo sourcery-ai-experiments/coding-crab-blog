@@ -17,7 +17,6 @@ title: &title Coding Crab Blog
 subtitle: &subtitle "Blogs about web development and other IT stuff"
 email: &email nicholas@nicholas-krebs.ch
 description: &description "Blogs about web development and other IT stuff"
-twitter_username: &twitter chraebsli_dev
 github_username: &github chraebsli
 minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale: "en-US"
@@ -43,7 +42,6 @@ social:
   links: # An array of links to social media profiles
     - *githubURL
     - *mastodonURL
-    - *linkedinURL
     - *emailURL
 
 include:
@@ -54,7 +52,6 @@ links:
   - website: &websiteURL "https://nicholas-krebs.ch"
   - github: &githubURL "https://github.com/chraebsli"
   - mastodon: &mastodonURL "https://techhub.social/@chraebsli"
-  - linkedin: &linkedinURL "https://www.linkedin.com/in/nicholas-krebs"
   - email: &emailURL "mailto:nicholas@nicholas-krebs.ch"
 
 # Analytics
@@ -111,9 +108,6 @@ author:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: *mastodonURL
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: *linkedinURL
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: *emailURL

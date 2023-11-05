@@ -101,11 +101,11 @@ pre {
         opacity: 0.1;
         transition: color 0.25s linear, opacity 0.25s linear;
         outline: none;
-
+        
         &:hover {
             opacity: 1;
         }
-
+        
         &:before {
             content: '';
             position: absolute;
@@ -124,9 +124,38 @@ pre {
 
     &:hover .copy-button {
         opacity: 0.6;
-
+        
         &:hover {
             opacity: 1;
         }
     }
 }
+
+// ----------------------------- Social Sharing ----------------------------- //
+// Social Sharing Bottons
+.btn {
+    $buttoncolors:
+    (email, #eceef1),
+    (mastodon, #6364FF);
+    
+    @each $buttoncolor, $color in $buttoncolors {
+        &--#{$buttoncolor} {
+            @include yiq-contrasted($color);
+            @if ($buttoncolor == inverse) {
+                border: 1px solid $border-color;
+            }
+            @if ($buttoncolor == light-outline) {
+                border: 1px solid #fff;
+            }
+            
+            &:visited {
+                @include yiq-contrasted($color);
+            }
+            
+            &:hover {
+                @include yiq-contrasted(mix(#000, $color, 20%));
+            }
+        }
+    }
+}
+    
