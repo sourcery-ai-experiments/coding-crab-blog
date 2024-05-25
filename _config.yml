@@ -34,6 +34,8 @@ timezone: Europe/Zurich # https://en.wikipedia.org/wiki/List_of_tz_database_time
 date_format: "%-d %b %Y %H:%M"
 include:
   - _pages
+exclude:
+  - _docs
 
 # Pagination
 paginate: 10
@@ -72,12 +74,14 @@ jekyll-archives:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-archives
   - jekyll-feed
-  - jemoji
+  - jekyll-gist
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 # CSS / SASS
 sass:
@@ -119,6 +123,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # docs
+  - scope:
+      path: "docs"
+      type: null
+    values:
+      layout: none
 
 # Comments
 comments:
@@ -149,7 +159,7 @@ links:
   - website: &websiteURL "https://nicholas-krebs.ch"
   - github: &githubURL "https://github.com/chraebsli"
   - mastodon: &mastodonURL "https://techhub.social/@chraebsli"
-  - email: &emailURL "mailto:nicholas@nicholas-krebs.ch"
+  - email: &emailURL "mailto:contact@nicholas-krebs.ch"
 author:
   name: *author
   avatar: "/assets/images/bio-photo.jpg"
