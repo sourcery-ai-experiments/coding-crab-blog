@@ -102,11 +102,12 @@ kramdown:
       line_numbers: true
 
 defaults:
-  # _posts
+  # EN posts
   - scope:
-      path: ""
+      path: "_posts/en"
       type: posts
     values:
+      language: en
       layout: single
       author_profile: true
       read_time: true
@@ -116,6 +117,21 @@ defaults:
       toc: true
       toc_sticky: true
       toc_label: "Table of Contents"
+  # DE posts
+  - scope:
+      path: "_posts/de"
+      type: posts
+    values:
+      language: de
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "Inhaltsverzeichnis"
   # _pages
   - scope:
       path: "_pages"
