@@ -12,8 +12,8 @@ I'm a young IT enthusiast & web developer from Switzerland. With this blog, I wa
 
 ## Help
 
-See [here](help.md) for help/ a cheat sheet.
+See [here](docs/help.md) for help/ a cheat sheet.
 
 ## Checklist
 
-Before publishing, see [here](checklist.md) for a checklist.
+Before publishing, see [here](docs/checklist.md) for a checklist.

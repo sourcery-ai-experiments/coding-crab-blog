@@ -7,66 +7,68 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# Configuration options can be accessed in any template with {{ site.title }},
+# {{ site.email }}, and so on
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: &title Coding Crab Blog
 subtitle: &subtitle "Blogs about web development and other IT stuff"
-email: &email nicholas@nicholas-krebs.ch
 description: &description "Blogs about web development and other IT stuff"
+name: &author Nicholas Krebs
+email: &email nicholas@nicholas-krebs.ch
 github_username: &github chraebsli
-minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-locale: "en-US"
-title_separator: "-"
 repository: &repository chraebsli/coding-crab-blog
-search: true
-date_format: "%-d %b %Y %H:%M"
+locale: "en-US"
+url: https://blog.chraebsli.dev
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.23.0
-url: https://blog.chraebsli.dev
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
+remote_theme: mmistakes/minimal-mistakes@4.26.1
+minimal_mistakes_skin: dark # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+title_separator: "-"
+search: true
+breadcrumbs: true
+enable_copy_code_button: true
 timezone: Europe/Zurich # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# Social
-social:
-  name: *name
-  links: # An array of links to social media profiles
-    - *githubURL
-    - *mastodonURL
-    - *emailURL
-
+date_format: "%-d %b %Y %H:%M"
 include:
   - _pages
 
-# Links to social media profiles
-links:
-  - website: &websiteURL "https://nicholas-krebs.ch"
-  - github: &githubURL "https://github.com/chraebsli"
-  - mastodon: &mastodonURL "https://techhub.social/@chraebsli"
-  - email: &emailURL "mailto:nicholas@nicholas-krebs.ch"
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+#pagination:
+#  enabled: true
+#  collection: 'posts'
+#  per_page: 8
+#  permalink: '/page/:num/'  # Pages are index.html inside this folder (default)
+#  title: ':title - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
+#  trail:
+#    before: 2
+#    after: 2
 
-# Analytics
-analytics:
-  provider: google-gtag
-  google:
-    tracking_id: G-L4JDRS1K02
-    anonymize_ip: false
-
-# Kramdown
-kramdown:
-  toc_levels: 1..4
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# Structures
+permalink: /:categories/:title/
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Plugins (previously gems:)
 plugins:
@@ -77,54 +79,23 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-# Comments
-comments:
-  provider: giscus
-  giscus:
-    repo: *repository
-    repo_id: R_kgDOI9p5Ww
-    category_name: Blog Comments
-    category_id: DIC_kwDOI9p5W84CUcYE
-    discussion_term: pathname # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
-    theme: transparent_dark # "light" (default), "dark", "dark_dimmed", "transparent_dark", "c"
-    emit_metadata: 1
-    input_position: top
-    lang: en
-    loading: lazy
-
-author:
-  name: &name "Nicholas Krebs"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "IT enthusiast & web developer from Switzerland"
-  location: "Switzerland"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: *websiteURL
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: *githubURL
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: *mastodonURL
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: *emailURL
-
-# Sass/SCSS
+# CSS / SASS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-footer:
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: *websiteURL
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: *emailURL
+# Compressing
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
+
+# Kramdown
+kramdown:
+  toc_levels: 1..4
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 defaults:
   # _posts
@@ -149,14 +120,65 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# Comments
+comments:
+  provider: giscus
+  giscus:
+    repo: *repository
+    repo_id: R_kgDOI9p5Ww
+    category_name: Blog Comments
+    category_id: DIC_kwDOI9p5W84CUcYE
+    discussion_term: pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled: 1 # '1' for enabled (default), '0' for disabled
+    theme: transparent_dark # "light" (default), "dark", "dark_dimmed", "transparent_dark", "c"
+    emit_metadata: 1
+    input_position: top
+    lang: en
+    loading: lazy
 
-compress_html:
-  clippings: all
-  ignore:
-    envs: development  # disable compression in dev environment
+# Analytics
+analytics:
+  provider: custom
+  digistats:
+    tracking_id: ZwSg9rf6GA
+  umami:
+    tracking_id: 7cd890e5-6ee0-45f2-b0a4-0d503793498d
+
+# Social Media Profiles
+links:
+  - website: &websiteURL "https://nicholas-krebs.ch"
+  - github: &githubURL "https://github.com/chraebsli"
+  - mastodon: &mastodonURL "https://techhub.social/@chraebsli"
+  - email: &emailURL "mailto:nicholas@nicholas-krebs.ch"
+author:
+  name: *author
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "IT enthusiast & web developer from Switzerland"
+  location: "Switzerland"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: *websiteURL
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *githubURL
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: *mastodonURL
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: *emailURL
+social:
+  name: *author
+  links:
+    - *githubURL
+    - *mastodonURL
+    - *emailURL
+footer:
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: *websiteURL
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: *emailURL

@@ -1,20 +1,11 @@
 <!-- start custom head snippets -->
 
-<!-- edit on github -->
-{% include analytics.html %}
-
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/logo-128.png' | relative_url }}" />
 <link rel="apple-touch-icon" href="{{ '/assets/logo-128.png' | relative_url }}" />
 
-<!-- copy code to clipboard -->
-<script src="/assets/js/copy-to-clipboard.js" async defer></script>
-
 <!-- edit on github -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-<!-- digistats analytics -->
-<script data-host="https://digistats.ch" data-dnt="false" src="https://www.digistats.ch/js/script.js" id="ZwSg9rf6GA" async defer></script>
 
 <!-- SEO friendly multilingual -->
 {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
