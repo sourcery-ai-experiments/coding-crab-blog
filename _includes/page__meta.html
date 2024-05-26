@@ -28,21 +28,15 @@
       </span>
     {% endif %}
 
-    {% if page.layout == 'single' %}
-      {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-      {% if posts.size == 0 %}
-        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-      {% endif %}
-      {% if posts.size > 1 %}
-      <span class="switch-language">
-        {% for post in posts %}
-        &bull;
-        <a title="{{ site.data.translations[page.lang].select_lang.viewIn }} {{ site.data.languages[post.lang].label[page.lang] }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">
-          <img src="{{ site.data.languages[post.lang].icon }}" width="32" height="32">
-        </a>
-        {% endfor %}
-      </span>
-        {% endif %}
-    {% endif %}      
+    <span class="page__meta-language">
+	{% for lang in site.languages %}
+	  {% capture lang_href %}{{site.baseurl}}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
+      {% assign lang_url = lang_href | append: page.url | replace: '//', '/' | replace: '//', '/' %}
+      &bull;
+      <a title="{{ site.data.translations[lang].language.label }}" class="{{lang}}" {% static_href %}href="{{ lang_url }}"{% endstatic_href %}>
+        {{ site.data.translations[lang].language.icon }}
+      </a>
+	{% endfor %}
+    </span>
   </p>
 {% endif %}
