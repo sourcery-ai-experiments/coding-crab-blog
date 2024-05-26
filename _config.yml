@@ -19,7 +19,6 @@ name: &author Nicholas Krebs
 email: &email nicholas@nicholas-krebs.ch
 github_username: &github chraebsli
 repository: &repository chraebsli/coding-crab-blog
-locale: "en-US"
 url: https://blog.chraebsli.dev
 
 # Localisation
