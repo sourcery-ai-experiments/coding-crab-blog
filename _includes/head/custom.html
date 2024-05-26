@@ -11,14 +11,10 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 <!-- SEO friendly multilingual -->
-{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-{% if posts.size == 0 %}
-  {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-{% endif %}
-{% if posts.size > 0 %}
-  {% for post in posts %}
-  <link rel="alternate" hreflang="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}" />
-  {% endfor %}
-{% endif %}
+{% for lang in site.languages %}
+  {% capture lang_href %}{{site.baseurl}}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
+  {% assign lang_url = lang_href | append: page.url | replace: '//', '/' | replace: '//', '/' %}
+  <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ lang_url }}"{% endstatic_href %} />
+{% endfor %}
 
 <!-- end custom head snippets -->
