@@ -1,6 +1,6 @@
 en:
   language:
-    label: View in English
+    label: View in English (If available)
     icon: 🇺🇸
   nav:
     about: About
@@ -10,7 +10,7 @@ en:
 
 de:
   language:
-    label: Ansehen in Deutsch
+    label: Ansehen in Deutsch (Falls verfügbar)
     icon: 🇩🇪
   nav:
     about: Über

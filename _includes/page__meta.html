@@ -27,16 +27,5 @@
         {% endif %}
       </span>
     {% endif %}
-
-    <span class="page__meta-language">
-	{% for lang in site.languages %}
-	  {% capture lang_href %}{{site.baseurl}}/{% if lang != site.default_lang %}{{ lang }}/{% endif %}{% if page.permalink_lang[lang] != '/' %}{{page.permalink_lang[lang]}}{% endif %}{% endcapture %}
-      {% assign lang_url = lang_href | append: page.url | replace: '//', '/' | replace: '//', '/' %}
-      &bull;
-      <a title="{{ site.data.translations[lang].language.label }}" class="{{lang}}" {% static_href %}href="{{ lang_url }}"{% endstatic_href %}>
-        {{ site.data.translations[lang].language.icon }}
-      </a>
-	{% endfor %}
-    </span>
   </p>
 {% endif %}
