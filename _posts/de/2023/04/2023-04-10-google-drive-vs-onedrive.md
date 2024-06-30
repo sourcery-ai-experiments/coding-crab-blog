@@ -5,10 +5,10 @@ title: Google Drive vs OneDrive
 description: Vergleich von Google Drive und OneDrive
 date: 2023-04-10 16:15 +0100
 categories:
-  - comparison
+  - Comparisons
 tags:
-  - google drive
-  - onedrive
+  - Google Drive
+  - OneDrive
 ---
 
 In diesem Artikel vergleichen wir Google Drive und OneDrive und zeigen die Unterschiede und Gemeinsamkeiten auf.

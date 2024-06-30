@@ -6,10 +6,10 @@ description: A cheatsheet for all the Markdown components available in this temp
 date: 2023-02-20 18:13:00 +0100
 published: true
 categories:
-  - cheatsheets
+  - Cheatsheets
 tags:
-  - markdown
-  - cheatsheet
+  - Cheatsheet
+  - Markdown
 ---
 
 In this post, you will find a cheatsheet for all the Markdown components available in this template.

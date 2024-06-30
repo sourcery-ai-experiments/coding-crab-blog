@@ -6,9 +6,9 @@ description: Wie man einen geteilten Google Drive Ordner oder Datei zu eigenem D
 date: 2023-03-07 08:26 +0100
 last_modified_at: 2023-03-08 17:50 +0100
 categories:
-  - google
+  - Google
 tags:
-  - google drive
+  - Google Drive
 ---
 
 In diesem Beitrag lernst du, wie du einen geteilten Google Drive Ordner/ Datei zu deinem Google Drive hinzufügst.

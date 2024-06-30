@@ -5,10 +5,10 @@ title: Semantic Versioning Explained
 description: Semantic Versioning explained in a simple way
 date: 2023-02-28 16:40 +0100
 categories:
-  - version-control
+  - Version Control
 tags:
-  - version control
-  - github
+  - Version Control
+  - Github
 ---
 
 In this post, you will learn about Semantic Versioning in a simple way and how to use it in your projects.

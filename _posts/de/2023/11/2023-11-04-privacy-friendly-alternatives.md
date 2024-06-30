@@ -5,11 +5,9 @@ title: Datenschutzfreundliche Alternativen
 description: Eine Liste mit datenschutzfreundlichen Alternativen.
 date: 2023-11-04 9:38 +0100
 categories:
-  - privacy-security
+  - Privacy
 tags:
-  - privacy
-  - anonymity
-  - security
+  - Privacy
 ---
 
 Hier findest du eine Liste mit datenschutzfreundlichen Alternativen zu den üblichen Diensten.

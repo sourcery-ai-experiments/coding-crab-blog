@@ -6,10 +6,10 @@ description: A collection of Google Docs tricks and tips to make your life easie
 date: 2023-03-07 09:02 +0100
 last_modified_at: 2023-03-08 20:19 +0100
 categories:
-  - google
+  - Google
 tags:
-  - google docs
-  - google
+  - Google
+  - Google Docs
 ---
 
 In this post, you will find a collection of Google Docs tricks and tips to make your life easier when using Google Docs.

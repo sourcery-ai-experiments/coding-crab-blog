@@ -5,11 +5,10 @@ title: Matrix Setup
 description: Setup Matrix
 date: 2023-11-03 09:54 +0100
 categories:
-  - privacy-security
+  - Privacy
 tags:
-  - security
-  - anonymity
-  - privacy
+  - Privacy
+  - Apps
 ---
 
 Hier findest du eine kurze Anleitung, wie du dich bei Matrix registrieren und die App einrichten kannst, inkl. anderer Dienste, um deine Sicherheit und Anonymität zu erhöhen.

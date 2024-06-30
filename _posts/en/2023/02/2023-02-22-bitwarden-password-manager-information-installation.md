@@ -5,11 +5,11 @@ title: Bitwarden Password Manager - Information & Installation
 description: What is Bitwarden and how to install Bitwarden on your device
 date: 2023-02-22 9:41:00 +0100
 categories:
-  - privacy-security
+  - Security
 tags:
-  - password manager
-  - bitwarden
-  - tools & software
+  - Password Manager
+  - Bitwarden
+  - Apps
 ---
 
 In this post, you will learn what Bitwarden is and how to install Bitwarden on your device.

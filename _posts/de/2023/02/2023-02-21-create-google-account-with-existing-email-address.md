@@ -6,10 +6,9 @@ description: Wie man einen Google Account mit einer bestehenden Email Adresse er
 date: 2023-02-21 13:16:00 +0100
 last_modified_at: 2023-03-08 17:24 +0100
 categories:
-  - google
+  - Google
 tags:
-  - google
-  - account
+  - Google Account
 ---
 
 In diesem Post lernst du, wie man einen Google Account mit einer bestehenden Email Adresse erstellen kann.
