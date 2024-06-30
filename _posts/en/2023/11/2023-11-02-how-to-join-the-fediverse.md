@@ -5,7 +5,7 @@ title: How to join the Fediverse
 description: Learn how you can join the Fediverse
 date: 2023-11-02 14:15 +0100
 categories:
-  - Privacy
+  - Guides/Privacy
 tags:
   - Privacy
   - Fediverse

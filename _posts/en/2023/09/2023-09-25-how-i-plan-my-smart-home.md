@@ -6,9 +6,8 @@ description: How I plan my smart home
 date: 2023-09-25 10:43 +0100
 published: true
 categories:
-  - Smart Home
+  - Opinions
 tags:
-  - Smart Home
   - Self-Hosting
   - FOSS
 ---

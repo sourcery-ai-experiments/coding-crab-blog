@@ -5,10 +5,9 @@ title: Conventional Commits Explained
 description: Conventional Commits explained in a simple way
 date: 2023-02-28 17:51 +0100
 categories:
-  - Version Control
+  - Handbooks
 tags:
   - Version Control
-  - Git
 ---
 
 In this post, you will learn about Conventional Commits in a simple way and how to use it in your projects.

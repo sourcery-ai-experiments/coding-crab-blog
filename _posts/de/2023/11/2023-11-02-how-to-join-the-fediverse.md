@@ -5,7 +5,7 @@ title: Wie du dem Fediverse beitreten kannst
 description: Lerne wie du dem Fediverse beitreten kannst
 date: 2023-11-02 14:15 +0100
 categories:
-  - Privacy
+  - Guides/Privacy
 tags:
   - Privacy
   - Fediverse

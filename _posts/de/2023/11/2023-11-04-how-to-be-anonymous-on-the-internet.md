@@ -5,10 +5,9 @@ title: Wie du anonym im Internet sein kannst
 description: Lerne wie du anonym im Internet sein kannst
 date: 2023-11-04 11:06 +0100
 categories:
-  - Privacy
+  - Guides/Privacy
 tags:
   - Privacy
-  - Anonymity
 ---
 
 Lerne, wie du anonym im Internet sein kannst.

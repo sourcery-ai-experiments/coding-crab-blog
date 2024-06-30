@@ -5,9 +5,10 @@ title: Privacy-friendly alternatives
 description: A list of privacy-friendly alternatives
 date: 2023-11-04 9:38 +0100
 categories:
-  - Privacy
+  - Handbooks
 tags:
   - Privacy
+  - Software
 ---
 
 Here you can find a list of privacy friendly alternatives to the usual services.

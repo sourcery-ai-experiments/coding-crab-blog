@@ -5,11 +5,9 @@ title: Bitwarden Password Manager - Usage & Features
 description: How to use the Bitwarden password manager and what can you do with it
 date: 2023-02-22 10:57:00 +0100
 categories:
-  - Security
+  - Guides/Security
 tags:
-  - Password Manager
-  - Bitwarden
-  - Apps
+  - Security
 ---
 
 In this post, you will learn how to use the Bitwarden password manager in your daily life and what can you do with it.

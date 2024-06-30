@@ -7,8 +7,7 @@ date: 2023-04-10 16:15 +0100
 categories:
   - Comparisons
 tags:
-  - Google Drive
-  - OneDrive
+  - Cloud Storage
 ---
 
 In diesem Artikel vergleichen wir Google Drive und OneDrive und zeigen die Unterschiede und Gemeinsamkeiten auf.

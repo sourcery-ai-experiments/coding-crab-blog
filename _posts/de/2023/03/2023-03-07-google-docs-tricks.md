@@ -6,10 +6,9 @@ description: Eine Sammlung von Google Docs Tricks und Tipps, um dein Leben zu er
 date: 2023-03-07 09:02 +0100
 last_modified_at: 2023-03-08 20:07 +0100
 categories:
-  - Google
+  - Guides
 tags:
   - Google
-  - Google Docs
 ---
 
 In diesem Beitrag findest du eine Sammlung von Google Docs Tricks und Tipps, um dein Leben zu erleichtern, wenn du Google Docs verwendest.

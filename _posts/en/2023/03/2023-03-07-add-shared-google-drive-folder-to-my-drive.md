@@ -6,9 +6,9 @@ description: How to add a shared Google Drive folder/ file to your Google Drive
 date: 2023-03-07 08:26 +0100
 last_modified_at: 2023-03-08 17:57 +0100
 categories:
-  - Google
+  - Guides
 tags:
-  - Google Drive
+  - Google
 ---
 
 In this post, you will learn how to add a shared Google Drive folder/ file to your Google Drive.
