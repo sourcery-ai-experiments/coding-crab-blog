@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: conventional-commits-explained
+page_id: conventional-commits-explained
 title: Conventional Commits Explained
 description: Conventional Commits explained in a simple way
 date: 2023-02-28 17:51 +0100

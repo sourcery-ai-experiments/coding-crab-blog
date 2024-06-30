@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: how-to-be-anonymous-on-the-internet
+page_id: how-to-be-anonymous-on-the-internet
 title: How to be anonymous on the internet
 description: Learn how to be anonymous on the internet
 date: 2023-11-04 11:06 +0100

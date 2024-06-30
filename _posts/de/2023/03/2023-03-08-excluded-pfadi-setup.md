@@ -1,6 +1,7 @@
 ---
 lang: de
-lang-ref: pfadi-setup
+lang-exclusive: [ de ]
+page_id: pfadi-setup
 title: Pfadi Setup
 description: Checkliste für das Setup für die Pfadi mit Anleitungen und Hilfestellungen
 date: 2023-03-08 20:29 +0100

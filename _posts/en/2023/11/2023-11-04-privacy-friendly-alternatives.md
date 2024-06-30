@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: privacy-friendly-alternatives
+page_id: privacy-friendly-alternatives
 title: Privacy-friendly alternatives
 description: A list of privacy-friendly alternatives
 date: 2023-11-04 9:38 +0100

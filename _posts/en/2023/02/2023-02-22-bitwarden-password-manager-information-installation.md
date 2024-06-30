@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: bitwarden-password-manager-information-installation
+page_id: bitwarden-password-manager-information-installation
 title: Bitwarden Password Manager - Information & Installation
 description: What is Bitwarden and how to install Bitwarden on your device
 date: 2023-02-22 9:41:00 +0100

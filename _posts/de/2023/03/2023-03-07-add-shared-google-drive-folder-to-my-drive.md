@@ -1,6 +1,6 @@
 ---
 lang: de
-lang-ref: add-shared-google-drive-folder-to-my-drive
+page_id: add-shared-google-drive-folder-to-my-drive
 title: Füge geteilten Google Drive Ordner/ Datei zu eigenem Drive hinzu
 description: Wie man einen geteilten Google Drive Ordner oder Datei zu eigenem Drive hinzufügt
 date: 2023-03-07 08:26 +0100

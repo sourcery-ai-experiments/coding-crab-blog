@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: add-shared-google-drive-folder-to-my-drive
+page_id: add-shared-google-drive-folder-to-my-drive
 title: Add Shared Google Drive Folder/ File to My Drive
 description: How to add a shared Google Drive folder/ file to your Google Drive
 date: 2023-03-07 08:26 +0100

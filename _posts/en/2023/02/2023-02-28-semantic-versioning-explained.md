@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: semantic-versioning-explained
+page_id: semantic-versioning-explained
 title: Semantic Versioning Explained
 description: Semantic Versioning explained in a simple way
 date: 2023-02-28 16:40 +0100

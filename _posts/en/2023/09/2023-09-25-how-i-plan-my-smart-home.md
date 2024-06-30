@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: how-i-plan-my-smart-home
+page_id: how-i-plan-my-smart-home
 title: How I plan my smart home
 description: How I plan my smart home
 date: 2023-09-25 10:43 +0100

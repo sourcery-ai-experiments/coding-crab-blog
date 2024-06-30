@@ -1,6 +1,6 @@
 ---
 lang: en
-lang-ref: google-drive-vs-onedrive
+page_id: google-drive-vs-onedrive
 title: Google Drive vs OneDrive
 description: Comparison of Google Drive and OneDrive
 date: 2023-04-10 16:15 +0100

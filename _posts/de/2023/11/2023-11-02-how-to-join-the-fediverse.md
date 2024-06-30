@@ -1,6 +1,6 @@
 ---
 lang: de
-lang-ref: how-to-join-the-fediverse
+page_id: how-to-join-the-fediverse
 title: Wie du dem Fediverse beitreten kannst
 description: Lerne wie du dem Fediverse beitreten kannst
 date: 2023-11-02 14:15 +0100

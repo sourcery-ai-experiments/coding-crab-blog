@@ -1,6 +1,6 @@
 ---
 lang: de
-lang-ref: create-google-account-with-existing-email-address
+page_id: create-google-account-with-existing-email-address
 title: Erstelle einen Google Account mit einer bestehenden Email Adresse
 description: Wie man einen Google Account mit einer bestehenden Email Adresse erstellt
 date: 2023-02-21 13:16:00 +0100

@@ -1,6 +1,6 @@
 ---
 lang: de
-lang-ref: google-docs-tricks
+page_id: google-docs-tricks
 title: Google Docs Tricks
 description: Eine Sammlung von Google Docs Tricks und Tipps, um dein Leben zu erleichtern
 date: 2023-03-07 09:02 +0100
