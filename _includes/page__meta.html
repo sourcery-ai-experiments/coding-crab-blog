@@ -27,22 +27,5 @@
         {% endif %}
       </span>
     {% endif %}
-
-    {% if page.layout == 'single' %}
-      {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-      {% if posts.size == 0 %}
-        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
-      {% endif %}
-      {% if posts.size > 1 %}
-      <span class="switch-language">
-        {% for post in posts %}
-        &bull;
-        <a title="{{ site.data.translations[page.lang].select_lang.viewIn }} {{ site.data.languages[post.lang].label[page.lang] }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">
-          <img src="{{ site.data.languages[post.lang].icon }}" width="32" height="32">
-        </a>
-        {% endfor %}
-      </span>
-        {% endif %}
-    {% endif %}      
   </p>
 {% endif %}
